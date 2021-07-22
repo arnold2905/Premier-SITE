@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cascading Style Sheet</title>
+
+    <!-- Lien externe vers la feuille de <style>01_style.css</style> -->
+    <link rel="stylesheet" href="css/01_style.css">
     <!-- style dans l'en-tête -->
     <style>
-
+        /* élément{proprété: valeur;} */
         body {
-            background-color: pink;
-        }
 
         li {
             background-color: #fff;
@@ -22,7 +23,7 @@
 
         li {
             background-color: #fff;
-            color: orangered
+            color: red;
         }
 
         a {
@@ -37,11 +38,20 @@
         <p>Il existe 3 moyens de faire du style à l'aide du CSS</p>
         <!-- ul>li*3{$/} -->
         <ul>
+            <!-- et ce style 
+                le plus proche de l'élément sera une exception -->
             <li style="color: blue;">1/ Le style en ligne</li>
             <li>2/ Le style dans l'en-tête (dans la balise <code>&lt;head&gt;</code>)</li>
             <li>3/ Le style dans une feuille de style externe.</li>
         </ul>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, voluptatibus quam magnam modi amet maxime temporibus esse? <a href="#" title="temporibus" target="_blank">temporibus</a>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        <p>1/ COURRIER NEW : Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur eos eius beatae tempore delectus 
+            natus est excepturi eligendi ipsa esse veniam, maiores aperiam molestias non, sit enim, asperiores illum.</p>
+
+        <p id="times">2/Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla harum voluptates ea, distinctio quibusdam atque officiis quam quod. Debitis, quod laboriosam 
+            perspiciatis expedita vitae sapiente pariatur tenetur quidem placeat qui?</p>    
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, voluptatibus quam magnam modi 
+            amet maxime temporibus esse? <a href="#" title="temporibus" target="_blank">temporibus</a>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
         <p>Lien vers <a href="https://macbidouille.com/">https://macbidouille.com</a></p>
 <body>
 </html>

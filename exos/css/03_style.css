@@ -1,0 +1,32 @@
+/* style pour l'exo 3 */
+
+body{
+    background-color:violet;
+    /* couleur du texte */
+    color: #333;
+    /* police de caractères ici des typos sans empattement 
+    ou sans-serif ou une police bâton */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+}
+h1, h2, h3{
+    text-align: center;
+    color: tomato;
+}
+p{
+    background-color: #fff;
+}
+/* pour cibler l'élément qui a l'id "travail" 
+j'écris "travail"  */
+#travail{
+    background-color: #000;
+    color: white;
+}
+/* pour cibler le ou les éléments qui ont 
+la class "vacances" j'écris .vacances */
+/* pour déclarer une classe on précède le nom de la 
+classe d'un point  */
+.vacances {
+    font-style: italic;
+    color: blue;
+}
