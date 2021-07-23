@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 background</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* une image de fond, répétée ou non, sa position et sa taille  */
+            /* background-image: url('../img/logo.png');  */
+            /* background-repeat: repeat-x; */
+            /* background-position:center ; */
+
+            /* background est la propriété raccourcie qui accepte plusieurs valeurs  */
+            background: url('../img/concrete-texture.png'); 
+        }
+
+        main {
+            /* margin "0 auto" va centrer horizontralement l'élément dans son parent */
+            margin: 0 auto;
+            /* largeur de l'élément (width) */
+            width: 1100px;
+            /* marge intérieure (padding : rembourage en anglais) du bloc */
+            /* rajouter une marge intérieure à un élément , fait augmenter sa hauteur et sa largeur globale  */
+            padding: 50px;
+            /* margin signifie la marge extérieure  */
+            border-left: 50px solid rgb(238, 152, 152);
+
+            background: linear-gradient(rgb(243, 240, 240), rgb(194, 223, 241));
+        }
+        h1{
+            width: 1100px;
+            background-color: lightgrey;
+
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        h2 {
+            width: 800px;
+            background-color: lightblue;
+        }
+        p {
+            background-color: lightyellow;
+        }
+        a {
+            background-color: orange;
+            color: white;
+            /* border : propriété raccourcie  */
+            border: 1px solid black;
+        }
+        code {
+            background-color: orange;
+            color: red;
+        }
+        mark {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Background image</h1>
+        <h2>Et un titre de niveau 2</h2>
+        <a href="#" title="le background-image">background-image</a>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam assumenda ipsum odio obcaecati quas 
+        debitis in eaque aliquid nobis minima quam, animi id, magni voluptatum nemo enim ullam rem aliquam!
+        </p>
+    </main>
+    
+</body>
+</html>
