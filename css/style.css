@@ -40,7 +40,6 @@ se trouve à cette adresse : https://meyerweb.com/eric/tools/css/reset/ */
 
 body{
     font-family:'Oswald',sans-serif;
-    background-color: lightblue;
     /* image de fond  */
     /* chemin depuis le fichier style.css; on sort du dossier css puis on rentre dans le dossier 
     img:.. / le chemin pour sortir d'un dossier*/
@@ -156,7 +155,7 @@ nav a {
     /* https://css3generator.com/  */
     border-radius: 10px 0;
 
-    font-family: 'Parisienne' , cursive;
+    font-family:'Oswald',sans-serif;
     text-decoration: none;
     font-size: 18px;
     /* transition sur la nav a marche avec le ":hover"  */
