@@ -13,7 +13,7 @@
 			
 		
 
-		<title>Mon premier site en HTML 5 et en CSS 3 - Image</title>
+		<title>Mon premier site en HTML 5 et en CSS 3 - Tableaux</title>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,10 +62,10 @@
                     <a href="index.html " title="HTML5 CSS 3 - Accueil">Accueil</a>
                     <a href="texte.html" title="HTML 5 CSS 3 -Texte">Texte</a>
                     <a href="selecteur.html" title="HTML 5 CSS 3 -Sélecteur">Sélecteur</a>
-                    <a href="image.html" title="HTML 5 CSS 3 -Image" class="active">Image</a>
+                    <a href="image.html" title="HTML 5 CSS 3 -Image">Image</a>
                     <a href="position.html" title="HTML 5 CSS 3 -Position">Position</a>
                     <a href="zoning.html" title="HTML 5 CSS 3 -Zoning">Zoning</a>
-                    <a href="tableau.html" title="HTML 5 CSS 3 -Tableau">Tableau</a>
+                    <a href="tableau.html" title="HTML 5 CSS 3 -Tableau" class="active">Tableau</a>
                     <a href="listes.html" title="HTML 5 CSS 3- Liste">Listes</a>
                     <a href="lien.html" title="HTML 5 CSS 3 -Lien">Lien</a>
                     <a href="formulaire.html" title="HTML 5 CSS 3 -Formulaire">Formulaire</a>
@@ -76,37 +76,55 @@
             </nav>
             <!--fin navigation-->
             <main>
-                  <!-- section 1 -->
-              <section>
-                   <h2>Les images- <i class="fas fa-image"></i></h2>
-              </section>
-                    <!-- section 2 -->
 
-              <section class="img-fond">
-                  <h3>Une image de fond en CSS - <i class="fas fa-comment-alt"></i></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit sequi fuga corporis necessitatibus tenetur ipsa similique, vel cum perferendis maxime corrupti provident illum temporibus qui dolor id nobis officia.
-                  Nostrum quam amet accusamus enim eligendi cum, vitae tenetur ipsum saepe ipsam nihil est esse voluptatem autem animi ipsa sit, sunt quas dicta! Veritatis, fugiat? A inventore nihil facilis dolore?
-                  Officia voluptas est, at quam itaque pariatur earum unde repudiandae dolorem nobis velit? Cumque incidunt sint repellendus magnam. Maxime veritatis exercitationem distinctio rerum doloribus architecto tempora eveniet vel, voluptas commodi!
-                  Hic dolorum dolorem quia dignissimos impedit maiores minima fugiat, provident, dolor sequi aperiam dicta deserunt. Recusandae, magni officia. Quas voluptates voluptatibus laboriosam provident ea soluta, id est sapiente ut. Provident?</p>
-              </section>
+              <section class="tableau">
+                  <h2>Un tableau - <i class="fas fa-table"></i></h2>
+                  <table>
+                      <!-- table = tableau  -->
+                      <!-- caption = la légende du tableau  -->
+                      <caption><i class="fas fa-plane"></i>Vols -> Paris Rome</caption>
+                      <!-- l'en-tête du tableau, les en-têtes du tableau  -->
+                      <thead>
+                          <tr>
+                              <!-- table data = les données du tableau  -->
+                              <td>Jours</td>
+                              <td>Lundis</td>
+                              <td>Vendredis</td>
+                              <td>Dimanche</td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <!-- tr*4>td*4  -->
+                          <tr>
+                              <!-- rowspan fusionne la cellule de cette rangée avec celle du dessous  -->
+                              <td rowspan="2">Air France</td>
+                              <td>Départ 10 h - Arrivée 11 h 55</td>
+                              <td>Départ 15 h - Arrivée 17 h</td>
+                              <td>Départ 17 h - Arrivée 18 h 55</td>
+                          </tr>
+                          <tr>
+                            <!-- je fusionne le premier td car ce td fusionne avec le td du dessus  -->
+                              <td>180 €</td>
+                              <td>200 €</td>
+                              <td>150 €</td>
+                          </tr>
+                          <tr>
+                              <td rowspan="2">Alitalia</td>
+                              <td>Départ 10 h - Arrivée 11 h 55</td>
+                              <td>Départ 15 h - Arrivée 17 h</td>
+                              <td>Départ 17 h - Arrivée 18 h 55</td>
+                          </tr>
+                          <tr>
+                        
+                            <td>180 €</td>
+                            <td>200 €</td>
+                            <td>150 €</td>
+                          </tr>
+                      </tbody>
 
-                    <!-- section 3 -->
-              <section>
-                <h3>Image dans le html</h3>
-                <img src="img/toureiffel.jpg" alt="la tour eiffel" title="Une belle image de la Tour Eiffel">
+                  </table> 
               </section>
-
-                    <!-- section 4 -->
-              <section class="au-centre">
-                  <h3>Images dans le css avec des effets CSS</h3>
-                  <img src="img/golden_gate.jpg" alt="le golden gate bridge"
-                  class="img-golden">
-                  <img src="img/golden_gate.jpg" alt="le golden gate bridge"
-                  class="img-golden">
-                  <blockquote>Et pourtant elle tourne !</blockquote>
-                  <img src="img/golden_gate.jpg" alt="le golden gate bridge"
-                  class="img-golden ">  
-              </section>
+                    
 
             </main>
             <!-- fin main-->
@@ -114,7 +132,7 @@
             <!--pied de page-->
             <footer>
                     <!-- pour les caractères spéciaux nous avons besoin de les coder cf.https://dev.w3.org/html5/html-author/charref ces caractères sont des "HTML entities" -->
-                <p>&copy; L'agence Suresnes 2021 -  &Fscr; &hearts;  &Cfr; </p>
+                <p>&copy; L'agence Suresnes 2021 - </p>
             </footer>
             <!--fin de footer-->
   					
