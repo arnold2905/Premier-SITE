@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site d'apprentissage du HTML5 et du CSS3-Colombbus Suresnes 2022">
+		
+	<meta name="keywords" content="Premier site,Colombbus, Suresnes, l'agence Suresnes ,lagencesuresnes, HTML5, CSS3, Arnold Yayi">	
+
+	<meta name="author" content="Arnold Yayi">	
+	<title>Mon premier site en HTML 5 et en CSS 3 - Les sélécteurs</title>
+		
+    <!-- Les Google Font Anton, Lemonada, Oswald  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald&display=swap" rel="stylesheet"> 
+
+    <!-- feuille de style du Site  -->
+		<link rel="stylesheet" href="css/style.css"> 
+        
+    <!-- Nous chargeons en CDN (content delivery network) la typo font awesome , la version gratuite qui comporte 1600 icônes -->
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a053d2cda8.js" crossorigin="anonymous"></script>    
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="logo html 5 et css3">
+        </div>
+        <h1>Mon premier site en HTML 5 et CSS 3</h1>
+        </header>  
+
+    <!--navigation principale-->
+		<nav>
+			<div>
+				<!-- zone du menu avec des liens simples pour faire notre menu -->
+				<a href="index.html" title="HTML 5 CSS3 - Accueil">Accueil</a>
+				<a href="textes.html" title="HTML 5 CSS3 - Texte">Texte</a>
+				<a href="selecteur.html" title="HTML 5 CSS 3 - Sélecteur" class="active">Sélecteur</a>
+				<a href="image.html" title="HTML 5 CSS 3 - ">Image</a>
+				<a href="position.html" title="HTML 5 CSS 3 - ">Position</a>		
+				<a href="zoning.html" title="HTML 5 CSS 3 - ">Zoning</a>	
+				<a href="tableau.html" title="HTML 5 CSS 3 - ">Tableau</a>
+				<a href="liste.html" title="HTML 5 CSS 3 - Liste">Liste</a>
+				<a href="lien.html" title="HTML 5 CSS 3 - ">Lien</a>
+				<a href="formulaire.html" title="HTML 5 CSS 3 - ">Formulaire</a>
+				<a href="multimedia.html" title="HTML 5 CSS 3 - ">Multimédia</a>
+				<a href="animation.fr" title="HTML 5 CSS 3 - ">Animation</a>
+				<a href="recapitulatif" title="HTML 5 CSS 3 - ">Récapitulatif</a>
+			</div>
+		</nav>
+		<!--fin nav-->
+
+    <main>
+        <section class="selection">
+            <h2>Les sélecteurs - <i class="fas fa-hand-pointer"></i></h2>
+
+            <p>1/ Lorem ipsum dolor sit amet <span>consectetur ad ? </span></p>
+
+            <p>2/ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis suscipit sapiente libero tempore dolor? Reprehenderit, 
+            minima eaque quasi assumenda magnam recusandae nostrum voluptatibus labore dolore. At quae dolorem laborum quis.</p>
+
+            <p>3/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sit quidem libero harum voluptatem. Magni sapiente perspiciatis placeat distinctio veritatis incidunt earum quam obcaecati et esse quibusdam, commodi quo!</p>
+
+            <p>4/ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, suscipit? Doloremque quaerat exercitationem, rem vel assumenda deleniti repellat iste animi incidunt dolorem, alias pariatur a temporibus soluta vero sint est.</p>
+
+            <p>5/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus suscipit eaque adipisci veniam beatae commodi, ipsam architecto mollitia. Voluptates excepturi eveniet ipsa atque commodi non dolor suscipit corrupti impedit culpa?</p>
+
+            <p>6/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis id dolore corporis repudiandae illum saepe similique dolor aperiam, pariatur est debitis quibusdam, ab eligendi cumque quaerat nemo, atque officia?</p>
+
+            <p>7/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, sint ipsum libero quae, et at delectus, expedita quisquam voluptates officia nihil error sed sunt corrupti. Ducimus officiis exercitationem sequi odit!</p>
+
+            <p>8/ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum hic ratione alias natus, nostrum neque odit repudiandae a est similique culpa nobis doloribus numquam laboriosam ipsa soluta doloremque nulla obcaecati.</p>
+
+            <p>9/ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quasi asperiores incidunt delectus iure itaque, id quam consectetur ullam vel laudantium voluptatem labore. Inventore unde qui suscipit alias sequi. Consectetur.</p>
+            
+            <p>10/ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem iure, distinctio, molestias adipisci nulla aperiam quam recusandae delectus rem ad atque voluptatum exercitationem veritatis veniam debitis illo cumque tempora necessitatibus.</p>
+            
+            <h3>Titre de niveau 3</h3>
+
+            <div class="zone-a">Zone A</div>
+            <div class="zone-b">Zone B Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span class="texte-orange" iure, distinctio, molestias adipisci nulla 
+            aperiam quam recusandae delectus rem ad atque voluptatum exercitationem veritatis veniam debitis illo cumque tempora necessitatibus.</span>Voluptatem iure, distinctio, 
+            molestias adipisci nulla aperiam quam recusandae delectus rem ad atque voluptatum 
+            exercitationem veritatis veniam debitis illo cumque tempora necessitatibus.</div>
+            <div class="zone-c">Zone C </div>
+
+            <div id="zone-d">Zone D : <span>Et du texte dans la zone D,
+            encadre la balise <code>&lt;span></code></span></div>
+        </section>
+
+        <section>
+            <div class="coucou">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, dolores quos nihil aperiam dignissimos laudantium officia quis officiis! 
+                    Necessitatibus nam exercitationem sapiente, sed obcaecati rem sint assumenda esse! Adipisci, asperiores?
+                    <figure>
+                        <a href="test.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                        <figcaption>logo</figcaption>
+                    </figure>
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--pied de page-->
+		<footer>
+			<!-- pour les caratères spéciaux nous avons besoin de les coder cf.https://dev.w3c.org/html5/html-author/charref  -->
+			<p>&copy; L'agence Suresnes 2021</p>
+		</footer>
+		<!--fin footer-->
+</body>
+</html>

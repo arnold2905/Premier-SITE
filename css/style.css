@@ -86,9 +86,13 @@ h4 {
     text-align: center;
 }
 
+p {
+    padding: 50px;
+}
+
 blockquote {
     font-family: 'Lemonada' cursive;
-    font-size: 120%;
+    font-size: 80%;
 }
 
 blockquote i {
@@ -180,6 +184,11 @@ nav a:hover {
     background-color: #a6d6c3;
     color: white;
 }
+
+.active {
+    background-color: #a6d6c3;
+    color: orangered;
+}
 /* fin nav  */
 
 /* les zones principales  */
@@ -209,11 +218,94 @@ section {
 }
 
 footer {
-    height: 30px;
+    height: 50px;
     margin-top: 10px;
     padding: 10px;
     text-align: center;
     background-color: #2980b9;
+
+    text-align  : center;
+    color: #fff;
+}
+
+button {
+    position: fixed; /* le bouton est fixe */
+    bottom: 40px; /* à 40px bas de la page*/
+    right: 20px;  /*20px de la droite de la page*/
+    border: none; /* border: none; le bouton n'a pas de bordure  */
+    background: transparent; /*il est transparent*/
+    font-size: 350%;
+    color: #2c3e50;
+}
+
+.selection p {
+    margin-bottom: 5px;
+    color: greenyellow;
+    background-color: orchid;
+}
+
+.selection p:first :first-of-type { /* premier enfant du type désigné */
+    background-color: hotpink;
+}
+
+.selection p :last :last-of-type {
+    width: 300px;
+    background-color: #fff;
+}
+.selection p:nth-of-type(4), p:nth-of-type(6) {
+    background-color: black;
+    color: white;
+}
+
+/* .selection *:last-child {  */
+    /* sélectionne tous les enfants des derniers 
+    éléments qui sont dans la section*/
+    /* font-size: 50px ;  */
+
+.selection .zone-a {
+    color: purple;
+}
+.selection .zone-b {
+    color: royalblue;
+}
+.selection div:not(.zone-b) {
+    background-color: #fff;
+    font-size: 68px;
+}
+.selection .zone-b .text-orange {
+    color: orangered; 
+    font-size: 35px;
+}
+.selection #zone-d span {
+    color: #32ff32;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* pages des images  */
+
+.img-fond {
+    margin-bottom: 20px;
+    background: #000 url('../img/fond.jpg') no-repeat;
+    background-size: cover;
+}
+.img-fond p {
+    width: 75%;
+    margin: 200px auto 250px auto;
+    padding: 20px;
+
+    background: rgba(255,255,255,0,60);
+    border-radius: 10px;
+    font-size: 120%;
+}
+
+img [src="img/toureiffel.jpg"] {  
+    /* on ne cible que l'image dans le code  */
+    display: block;
+    /* display : affichage en tant que block  */
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
 }
 
 /* la class clear pour rétablir le flux  */
