@@ -381,6 +381,65 @@ li .far:hover {
     font-size: 150%;
     color: blue;
 }
+
+ol.fruit-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: upper-roman;
+}
+
+.imbriquee, .imbriquee ul {
+    padding-left: 40px;
+   
+}
+.imbriquee {
+    cursor: pointer;
+}
+
+.imbriquee ul {
+    display: none;
+}
+
+.affiche:hover ul {
+    display: block;
+}
+
+.imbriquee li ul li:hover {
+    display: inline;
+    font-size: 150%;
+    background-color: #6accfc;
+    box-shadow: 5px 10px 10px grey;
+    transition-duration: 0.5s;
+}
+
+/* fin de liste  */
+
+.ancre {
+    text-align: center;
+    padding: 100px;
+}
+
+.ancre a{
+    margin: 8px;
+    padding: 5px 10px;
+
+    background-color: salmon;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px black;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ancre a:hover {
+    box-shadow: none;
+    text-shadow: 1px 5px 5px rgb(red, green, blue);
+    transition-duration: 00.5s;
+}
+
+
+
+
 /* la class clear pour rétablir le flux  */
 .clear {
     clear: both;
