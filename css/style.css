@@ -87,7 +87,7 @@ h4 {
 }
 
 p {
-    padding: 50px;
+    padding: 5px;
 }
 
 blockquote {
@@ -221,11 +221,10 @@ footer {
     height: 50px;
     margin-top: 10px;
     padding: 10px;
-    text-align: center;
-    background-color: #2980b9;
+    background-color: #0bc0f7;
 
     text-align  : center;
-    color: #fff;
+    color:#fff;
 }
 
 button {
@@ -515,6 +514,26 @@ on fait display block, on les fait réapparaître */
 #menu-deroulant ul {
     text-align: center;
 }
+
+/* la page formulaire  */
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 20px 50px;
+    background-color: #80bceb;
+    border-radius: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    margin: 20px 10px;
+}
+
+
 
 /* la class clear pour rétablir le flux  */
 .clear {
