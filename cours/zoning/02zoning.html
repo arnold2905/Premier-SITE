@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 zoning</title>
+
+    <style>
+
+        
+
+        body {
+            background-color: pink;
+        }
+
+        main {
+            width: 200px;
+            margin: auto;
+            /* background-color: #fff;  */
+        }
+
+        header {
+            float: left;
+            width: 1200px;
+            height: 150px;
+            background-color: royalblue;
+        }
+
+        aside {
+            float: left;
+            width: 250px;
+            min-height: 400px;
+            padding-left: 10px;
+
+            border-right: 10px solid rgb(74, 218, 74);
+            background-color: seagreen;
+            box-sizing: border-box;
+        }
+
+        section {
+            float: left;
+            width: 950px;
+            min-height: 400px;
+            padding-left: 10px;
+            
+            background-color: skyblue;
+            box-sizing: border-box;
+
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        footer {
+            min-height: 150px;
+            background-color: slateblue;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Zone de l'en-tête <code>&lt;header></code></h1>
+            <p>1200px de large</p>
+        </header>
+        <aside>
+            <h2>Zone à gauche <code>&lt;aside></code></h2>
+            <p>200px de large</p>
+        </aside>
+        <section>
+            <h2>Zone de droite ou zone principale <code>&lt;section></code></h2>
+            <p>950px de large</p>
+        </section>
+
+        <div class="clear"></div>
+
+        <footer>
+            <p>pied de page <code></code></p>
+        </footer>
+    </main>
+</body>
+</html>
