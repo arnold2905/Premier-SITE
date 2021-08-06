@@ -595,7 +595,38 @@ iframe[allowfullscreen] {
     font-size: 120%;
     text-align: center;
 }
+/* page des zonings  */
 
+/* pour le zoning-1  */
+
+#zoning-1 {
+    width: 800px;
+    margin: auto;
+    color: rgb(134, 17, 17);
+    text-align: center;
+}
+
+#zoning-1 header {
+    text-align: center;
+    background: #94d8f7;
+}
+
+#zoning-1 aside {
+    height: 525px;
+    width: 20%;
+    float: left;
+    background: rgb(182, 241, 239);
+}
+
+#zoning-1 section {
+    height: 525px;
+    width: 80%;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+    background: lime;
+}
 
 /* la class clear pour rétablir le flux  */
 .clear {

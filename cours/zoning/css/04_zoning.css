@@ -1,0 +1,27 @@
+
+body {
+    background-color: gold;
+    text-align: center;
+}
+header {
+    width: 1200px;
+    background-color: salmon;
+    text-align: center;
+}
+main {
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    background-color: violet;
+}
+
+section {
+    float: left;
+    width: 800px;
+    background-color: rgb(47, 255, 141);
+}
