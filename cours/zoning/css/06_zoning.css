@@ -1,0 +1,42 @@
+/* zoning 06  */
+
+body {
+    background-color: url(../../img/concrete-texture.png);
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+    border-left-color: white;
+}
+
+.section {
+    width: 50%;
+    float: left;
+}
+
+.bleu {
+    background-color: red;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background-color: pink;
+}
+
+footer p {
+    margin: 0;
+}
+
+div {
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: peachpuff;
+}
+
+
+
