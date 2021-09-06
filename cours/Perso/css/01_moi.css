@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+#conteneur{
+    border: 1px solid black;
+    height: 900px;
+    width: 712px;
+}
+header{
+    height: 100px;
+    background-color: #ff002e;
+    width: 712px;
+    text-align: center;
+    vertical-align: baseline;
+}
+ 
+.zonedegauche{
+    float: left;
+    height:700px;
+    background-color: #00bbff;
+    width: 100px;
+    text-align: center;
+    margin-right: 1px;
+}
+ 
+.z1{
+    float: left;
+    height: 600px;
+    width: 100px;
+    background-color: #6cfc82;
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+.z2{
+    float: left;
+    height: 600px;
+    width: 100px;
+    background-color: #6cfc82;
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+.z3{
+    float: left;
+    height: 600px;
+    width: 100px;
+    background-color: #6cfc82;
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+ 
+.z4{
+    float: left;
+    height: 600px;
+    width: 100px;
+    background-color: #6cfc82;
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+.z5{
+    float: left;
+    height: 600px;
+    width: 100px;
+    background-color: #6cfc82;
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+ 
+.zonededroite{
+    float: left;
+    height: 700px;
+    width: 100px;
+    background-color: #00bbff;
+    text-align: center;
+}
+ 
+.clear{
+    clear: both;
+}
+footer{
+    margin-left: 100px;
+    height: 100px;
+    width: 508px;
+    background-color: #fffb14;
+}
